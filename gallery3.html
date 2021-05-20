@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <meta name="viewport:" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="gallery3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    </script>
+
+  </head>
+  <body>
+    <div class="hero">
+      <div class="nav-bar">
+            <div class="nav-logo">
+                <a href="home.html"> <img src="img/ayrton-senna_logo.png" alt=""></a>
+            </div>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                  <a href="home.html"><li>Home</li></a>
+                  <a href="pilot.html"><li>Pilot</li></a>
+                  <a href="carrer.html"><li>Carrer</li></a>
+                  <a href="legacy.html"><li>Legacy</li></a>
+                  <a href="news.html"><li>News</li></a>
+                  <a href="gallery3.html"><li>Gallery</li></a>
+                  <a href="credits.html"><li>Credits</li></a>
+
+                  <a href="https://ias.abraceumacausa.com.br/"> <button type="button" class="btn">Donate</button></a>
+                </ul>
+
+
+
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+      </div>
+
+          <!-- <div class="vertical-bar">
+              <div class="search-icon">
+                <i class="fa fa-search"></i>
+
+
+              </div> -->
+
+              <div class="social-icons">
+              <a href="https://twitter.com/ayrtonsenna"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/oficialayrtonsenna/"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/ayrtonsenna"><i class="fa fa-twitter"></i></a>
+
+              </div>
+
+          </div>
+    </div>
+
+    <main class="grid">
+
+
+
+      <p class="" id="archive_photos">PHOTOS</p>
+
+      <p class="" id="archive_videos">VIDEOS</p>
+
+
+
+
+
+      <div class="one grid_empty">
+          <a href="#"></a>
+          <p class="caption-box">Gallery</p>
+
+
+      </div>
+
+      <div class="two grid_empty">
+
+
+
+        <div class="gallery">
+              <div><img src="img/Mural-Ayrton-Senna-1.jpg" alt="" class="photo"></div>
+              <div><img src="img/ayrton-senna_bandeira.jpg" alt="" class="photo"></div>
+              <div><img src="img/Gasly.jpg" alt="" class="photo"></div>
+              <div><img src="img/AyrtonSennaRoland.jpg" alt="" class="photo"></div>
+              <div><img src="img/ZK4jUt2zTRCmdIGyAZBhhA.jpg" alt="" class="photo"></div>
+              <div><img src="img/michael-schumacher-and-ayrton-senna-the-duel-that-the-world-lost.jpg" alt="" class="photo"></div>
+              <div><img src="img/ss-1.jpg" alt="" class="photo"></div>
+              <div><img src="img/ap3t7819-1.jpg" alt="" class="photo"></div>
+              <div><img src="img/image16x9img1536high.jpg" alt="" class="photo"></div>
+            </div>
+
+      </div>
+
+
+
+
+
+      <div class="four grid_empty gallery">
+
+
+          <div class="">
+
+            <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/_OMon0V-Lr4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!-- <a href="#"> <img src="img/senna_netflix.jpg" class="card_img" alt=""></a> -->
+            <h5 class="">Senna 360</h5>
+
+
+          </div>
+
+          <div class="">
+            <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/2g7bJT-1Eoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <img src="img/82AV_007-860x430.jpg" class="card_img" alt=""> -->
+            <h5 class="">Fernando Alonso admires Senna</h5>
+
+          </div>
+
+          <div class="">
+            <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/K-nOprZhUdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <img src="img/82PP_F010-oi-860x430.jpg" class="card_img" alt=""> -->
+            <h5 class="">Special Senna 2020</h5>
+
+          </div>
+
+      </div>
+
+      <div class="bottom_page">
+
+
+
+
+
+        <!-- <div class="six">
+          <div class="test">
+
+          </div>
+
+
+        </div> -->
+        <!-- <div class="seven"></div>
+        <div class="eight"></div>
+        <div class="nine"></div> -->
+
+      </div>
+
+
+
+    </main>
+
+
+    <footer>
+
+            <div class="nav-logo">
+                <img src="img/Ayrton_Senna_positivo.png" alt="">
+            </div>
+
+            <div class="nav-footer">
+                <ul>
+                  <a href="#"><li>Contact</li></a>
+                  <a href="#"><li>Newsletter</li></a>
+                  <a href="credits.html"><li>Credits</li></a>
+
+                </ul>
+
+                <p class="">Sidnei Vitor dos Santos | 3026220</p>
+
+
+
+
+
+      </div>
+    </footer>
+
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+          show.style.right = "0";
+
+
+        }
+        function closeMenu(){
+          show.style.right = "-100vw";
+
+
+        }
+
+    </script>
+
+    <script>
+    $('.gallery div').on('click', function(e){
+  $(this).toggleClass('lightbox');
+
+});
+
+    </script>
+
+  </body>
+</html>
